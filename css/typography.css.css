@@ -1,0 +1,61 @@
+/*
+Syntax error: File to import not found or unreadable: vars.
+              Load paths:
+                /Users/paul/Dropbox/SVAngel/Website/sass
+                /Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.12.alpha.1/frameworks/blueprint/stylesheets
+                /Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.12.alpha.1/frameworks/compass/stylesheets
+                Compass::SpriteImporter
+        on line 4 of /Users/paul/Dropbox/SVAngel/Website/sass/typography.css.sass
+
+1: /Users/paul/Dropbox/SVAngel/Website/sass/typography.css.sass
+
+Backtrace:
+/Users/paul/Dropbox/SVAngel/Website/sass/typography.css.sass:4
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/sass-3.1.11/lib/sass/../sass/tree/import_node.rb:64:in `import'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/sass-3.1.11/lib/sass/../sass/tree/import_node.rb:25:in `imported_file'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/sass-3.1.11/lib/sass/../sass/tree/visitors/perform.rb:147:in `visit_import'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/sass-3.1.11/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/sass-3.1.11/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/sass-3.1.11/lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/sass-3.1.11/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/sass-3.1.11/lib/sass/../sass/tree/visitors/base.rb:53:in `map'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/sass-3.1.11/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/sass-3.1.11/lib/sass/../sass/tree/visitors/perform.rb:27:in `visit_children'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/sass-3.1.11/lib/sass/../sass/tree/visitors/perform.rb:39:in `with_environment'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/sass-3.1.11/lib/sass/../sass/tree/visitors/perform.rb:26:in `visit_children'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/sass-3.1.11/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/sass-3.1.11/lib/sass/../sass/tree/visitors/perform.rb:47:in `visit_root'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/sass-3.1.11/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/sass-3.1.11/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/sass-3.1.11/lib/sass/../sass/tree/visitors/perform.rb:18:in `visit'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/sass-3.1.11/lib/sass/../sass/tree/visitors/perform.rb:7:in `send'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/sass-3.1.11/lib/sass/../sass/tree/visitors/perform.rb:7:in `visit'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/sass-3.1.11/lib/sass/../sass/tree/root_node.rb:20:in `render'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/sass-3.1.11/lib/sass/../sass/engine.rb:300:in `_render'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/sass-3.1.11/lib/sass/../sass/engine.rb:247:in `render'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.12.alpha.1/lib/compass/compiler.rb:139:in `compile'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.12.alpha.1/lib/compass/compiler.rb:125:in `timed'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.12.alpha.1/lib/compass/compiler.rb:138:in `compile'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.12.alpha.1/lib/compass/logger.rb:45:in `red'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.12.alpha.1/lib/compass/compiler.rb:137:in `compile'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.12.alpha.1/lib/compass/compiler.rb:117:in `compile_if_required'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.12.alpha.1/lib/compass/compiler.rb:102:in `run'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.12.alpha.1/lib/compass/compiler.rb:100:in `each'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.12.alpha.1/lib/compass/compiler.rb:100:in `run'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.12.alpha.1/lib/compass/compiler.rb:125:in `timed'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.12.alpha.1/lib/compass/compiler.rb:99:in `run'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.12.alpha.1/lib/compass/commands/update_project.rb:37:in `perform'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.12.alpha.1/lib/compass/commands/base.rb:18:in `execute'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.12.alpha.1/lib/compass/commands/project_base.rb:19:in `execute'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.12.alpha.1/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.12.alpha.1/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.12.alpha.1/bin/compass:25
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.12.alpha.1/bin/compass:39:in `call'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.12.alpha.1/bin/compass:39
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/bin/compass:19:in `load'
+/Users/paul/.rvm/gems/ree-1.8.7-2011.03/bin/compass:19
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: vars.\A               Load paths:\A                 /Users/paul/Dropbox/SVAngel/Website/sass\A                 /Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.12.alpha.1/frameworks/blueprint/stylesheets\A                 /Users/paul/.rvm/gems/ree-1.8.7-2011.03/gems/compass-0.12.alpha.1/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 4 of /Users/paul/Dropbox/SVAngel/Website/sass/typography.css.sass\A \A 1: /Users/paul/Dropbox/SVAngel/Website/sass/typography.css.sass"; }

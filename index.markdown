@@ -9,7 +9,6 @@ fund raising, M&A, and strategic advice.
 <ul id="links" class="unstyled">
   <li>
     <img src="/img/twitter_icon.png">
-    <a href="http://twitter.com/svangel/companies" target="_blank" class="website site_1">
-      <span class="displayname">SV Angel Companies</span></a>
+    <span class="displayname">Companies on Twitter</span>
   </li>
 </ul>

@@ -1,1 +1,1 @@
-compass compile . sass/* --css-dir css
+compass watch . sass/* --css-dir css

@@ -1,3 +1,5 @@
+@import "compass/utilities/general/clearfix"
+@import "compass/css3/border-radius"
 @import "vars"
 
 $width: 300px
@@ -8,6 +10,7 @@ html, body
   font-size: 16px
 
 header
+  +clearfix
   margin-bottom: 10px
 
 #container
@@ -16,18 +19,37 @@ header
   width: $width
   top: 100px
 
-#logo
-  background-image: url(/img/logo.jpg)
-  margin: 0 auto
-  width: 300px
-  height: 240px
 
 #main
-  width: $width
   border-top: 1px solid $grayLight
   border-bottom: 1px solid $grayLight
-  padding-top: 20px
+  padding: 20px 0
 
 a, a:hover, a:visited
   color: #2B82AD
   font-size: 14px
+
+.homepage
+  #logo
+    background-image: url(/img/logo.jpg)
+    margin: 0 auto
+    width: 300px
+    height: 240px
+  #container
+    width: $width
+
+.company
+  +border-radius
+  header
+    h1
+      float: left
+      width: $width * 1.5 - 60
+      margin-bottom: 0
+  #logo
+    float: left
+    background-image: url(/img/logo_50.jpg)
+    margin: 0 auto
+    width: 50px
+    height: 40px
+  #container
+    width: $width * 1.5

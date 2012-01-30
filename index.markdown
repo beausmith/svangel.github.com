@@ -8,7 +8,9 @@ fund raising, M&A, and strategic advice.
 
 <ul id="links" class="unstyled">
   <li>
-    <img src="/img/twitter_icon.png">
-    <span class="displayname">Companies on Twitter</span>
+    <a href="https://twitter.com/#!/svangel/companies">
+      <img src="/img/twitter_icon.png">
+      <span class="displayname">Companies on Twitter</span>
+    </a>
   </li>
 </ul>

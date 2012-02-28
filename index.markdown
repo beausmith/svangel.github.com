@@ -2,10 +2,7 @@
 layout: default
 title: SVAngel
 ---
-SV Angel is a Silicon Valley-based angel fund. Together as a
-team we provide mentoring, business development, early and later-stage
-fund raising, M&A, and strategic advice.
-
+SV Angel is an angel fund based in Silicon Valley.  As a team we provide a strong network, mentorship, and strategic advice around business development, fund raising, M&A and other inflection points.
 <ul id="links" class="unstyled">
   <li>
     <a href="https://twitter.com/#!/svangel/companies">

@@ -1,12 +1,9 @@
 ---
 layout: default
-title: SVAngel
+title: SV Angel
+description: SV Angel is an SF-based angel firm. We help startups by mentoring, business development, fundraising, M&A and other strategic advice.
+homepage: true
 ---
-SV Angel is an angel fund based in Silicon Valley.  As a team we provide a strong network, mentorship, and strategic advice around business development, fund raising, M&A and other inflection points.
-<ul id="links" class="unstyled">
-  <li>
-    <a href="https://twitter.com/#!/svangel/companies">
-      <img src="/img/twitter_icon.png"><span class="displayname">Companies on Twitter</span>
-    </a>
-  </li>
-</ul>
+<h1 class="statement">
+  <span class="company-name">SV Angel</span> is an SF-based angel firm. We help startups by mentoring, business development, fundraising, M&amp;A and other strategic advice.
+</h1>

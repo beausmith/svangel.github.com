@@ -10,5 +10,5 @@ homepage: true
 </div>
 
 <h1 class="statement">
-  <span class="company-name">SV Angel</span> is an SF-based angel firm. We help startups by mentoring, business development, fundraising, M&amp;A and other strategic advice.
+  <span class="company-name">SV Angel</span> is an SF-based angel firm. We help startups with business development, financing, M&amp;A and other advice.
 </h1>

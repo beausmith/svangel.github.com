@@ -17,7 +17,7 @@
 
 or
 
-    $ jekyll --pygments --safe --server
+    $ jekyll --pygments --safe --server --auto
 
 
 # Resources

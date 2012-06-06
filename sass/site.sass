@@ -1,0 +1,67 @@
+@import compass
+@import compass/reset
+*
+  +box-sizing(border-box)
+
+$gold-color: #b28c45
+$default-rule-color: #eee4cf
+
+body
+  min-width: 320px
+  font: 300 18px/24px "freight-sans-pro", sans-serif
+
+h1
+  text-transform: uppercase
+  font: 700 24px/1.2 "freight-sans-pro", sans-serif
+  @media screen and (max-width: 480px)
+    font-size: 20px
+
+.header
+  padding: 30px 0 7px
+  text-align: center
+
+.logo
+  display: block
+  margin: 0 auto
+  // background: inline-image("sv-angel-logo.png", "image/png")
+
+.pages
+  border-top: 1px solid $default-rule-color
+  margin-top: 15px
+  // text-align: center
+  // text-transform: uppercase
+  // font: 700 11px/1.2 "freight-sans-pro", sans-serif
+  // +nowrap
+  // a
+  //   +inline-block
+  //   padding: 13px 3%
+  //   &:link,
+  //   &:visited
+  //     text-decoration: none
+  //     color: black
+  //   &:hover,
+  //   &:active
+  //     color: $gold-color
+  //   @media screen and (min-width: 480px)
+  //     font-size: 12px
+  //   @media screen and (min-width: 600px)
+  //     font-size: 13px
+  //   @media screen and (min-width: 768px)
+  //     padding: 13px 22px
+
+.content
+  padding: 0 20px
+
+.statement
+  max-width: 600px
+  margin: 30px auto
+  text-align: center
+
+.front-page-image
+  max-width: 950px
+  margin: 30px auto
+  margin-top: 40px
+  text-align: center
+
+.company-name
+  color: $gold-color

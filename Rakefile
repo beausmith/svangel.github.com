@@ -66,7 +66,6 @@ task :post do
     post.puts "category: "
     post.puts "tags: []"
     post.puts "---"
-    post.puts "{% include JB/setup %}"
   end
 end # task :post
 
@@ -139,7 +138,6 @@ namespace :theme do
           page.puts "layout: default"
           page.puts "---"
         end
-        page.puts "{% include JB/setup %}"
         page.puts "{% include themes/#{theme_name}/#{File.basename(filename)} %}"
       end
     end

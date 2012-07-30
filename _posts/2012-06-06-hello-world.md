@@ -6,4 +6,4 @@ category:
 tags: []
 ---
 
-First Post
+First Post on a blog prototype.

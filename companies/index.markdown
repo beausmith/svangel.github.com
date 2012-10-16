@@ -29,4 +29,4 @@ name: companies
   Online store for boutique-quality, classically crafted eye ear at a revolutionary price poinnt.
 
 * ## Many more
-  Online pinboard to create collections of things you love and "follow" user-generated collections
+  

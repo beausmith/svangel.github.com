@@ -5,16 +5,39 @@
 
 $gold-color: #b28c45
 $default-rule-color: #eee4cf
+$link-blue-color: #3494ff
+$text-color: #5e5e5e
+$alphabet-length: 26em
 
 body
   min-width: 320px
-  font: 300 18px/24px "freight-sans-pro", sans-serif
+  font: 300 16px/1.3 "freight-sans-pro", sans-serif
+  color: $text-color
+  @media screen and (min-width: 481px)
+    font-size: 18px
 
-h1
+a
+  color: $link-blue-color
+  text-decoration: none
+  &:hover
+    color: darken($link-blue-color, 10%)
+
+h1,
+h2
   text-transform: uppercase
-  font: 700 24px/1.2 "freight-sans-pro", sans-serif
-  @media screen and (max-width: 480px)
-    font-size: 20px
+  font: 700 20px/1.2 "freight-sans-pro", sans-serif
+  // letter-spacing: 0.05em
+  color: black
+  @media screen and (min-width: 480px)
+    font-size: 24px
+
+h2
+  margin: 0.5em 0
+  color: $gold-color
+
+p
+  margin: 0 auto 20px
+  max-width: $alphabet-length * 1.5
 
 .header
   padding: 30px 0 7px
@@ -25,34 +48,137 @@ h1
   margin: 0 auto
   // background: inline-image("sv-angel-logo.png", "image/png")
 
-.pages
+nav
   border-top: 1px solid $default-rule-color
   margin-top: 15px
+  text-align: center
+  text-transform: uppercase
+  font: 700 11px/1.2 "freight-sans-pro", sans-serif
+  +nowrap
+  a
+    +inline-block
+    padding: 13px 3%
+    &:link,
+    &:visited
+      text-decoration: none
+      color: black
+    &:hover,
+    &:active,
+    &.current
+      color: $gold-color
+    @media screen and (min-width: 480px)
+      font-size: 12px
+    @media screen and (min-width: 600px)
+      font-size: 13px
+    @media screen and (min-width: 768px)
+      padding: 13px 22px
 
 .content
   padding: 0 20px
+  max-width: 768px + 20px * 2
+  margin: 20px auto 60px
+  .page-companies &
+    max-width: 950px
+    padding: 0
 
-.statement
-  max-width: 600px
+.mission-statement
+  max-width: 768px
   margin: 20px auto
   text-align: center
 
 .front-page-image
   display: block
-  margin: 15px auto
+  margin: 0 auto 15px
+  padding: 0 20px
   width: 100%
-  max-width: 950px
+  max-width: 950px + 20px * 2
 
 .company-name
   color: $gold-color
 
-p
-  margin-bottom: 1em
+.page-team
+  .content
+    text-align: center
+  h2
+    margin-top: 2.5em
 
-#address
-  width: 300px
-  margin: 20px auto
-  text-align: center
-  margin-top: 4em
-  font-size: 12px
-  color: #aaa
+.page-home
+  .features
+    +clearfix
+  .feature
+    text-align: center
+    margin: 20px 0
+    a
+      display: block
+    @media (min-width: 600px)
+      float: left
+      width: 50%
+      &:nth-child(odd)
+        padding-right: 20px * 1.5
+      &:nth-child(even)
+        padding-left: 20px * 1.5
+
+.page-companies
+  h1
+    text-align: center
+  ul
+    +clearfix
+  li
+    float: left
+    padding: 15px
+    @media (min-width: 480px)
+      width: 50%
+      height: 300px
+    @media (min-width: 500px)
+      height: 250px
+    @media (min-width: 830px) // to fit warby-parker, otherwise 768px
+      height: 300px
+      width: 25%
+  h2
+    margin-bottom: .25em
+    &:before
+      content: ""
+      display: block
+      width: 100%
+      height: 90px
+      margin-bottom: .25em
+      background: white
+      +box-shadow(0 0 6px rgba(black,.25))
+      background: no-repeat center center
+
+#airbnb:before
+  background-image: image-url("companies/airbnb.png")
+
+#foursquare:before
+  background-image: image-url("companies/foursquare.png")
+
+#github:before
+  background-image: image-url("companies/github.png")
+
+#many_more:before
+  background-image: image-url("companies/oviary.png")
+
+#pinterest:before
+  background-image: image-url("companies/pinterest.png")
+
+#square:before
+  background-image: image-url("companies/square.png")
+
+#twitter:before
+  background-image: image-url("companies/twitter.png")
+
+#warby_parker:before
+  background-image: image-url("companies/warby-parker.png")
+
+footer
+  border-top: 1px solid $default-rule-color
+  padding: 20px 0 40px
+  address
+    text-align: center
+    font-size: 14px
+    span
+      &:after
+        content: " · "
+        padding: 0 5px
+    @media (min-width: 400px)
+      font-size: 16px

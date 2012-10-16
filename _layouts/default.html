@@ -13,28 +13,37 @@
   <script>try{Typekit.load();}catch(e){}</script>
   <link href="/css/site.css" rel="stylesheet">
 </head>
-<body class="font-proxima-nova">
+<body class="font-proxima-nova page-{{ page.name }}">
   <header class="header">
-    {% assign svlogo = '<img src="/i/sv-angel-logo.png" alt="SV Angel logo" class="logo">' %}    
-    {% if page.homepage %}
+    {% assign svlogo = '<img src="/i/sv-angel-logo.png" alt="SV Angel logo" class="logo">' %}
+    {% if page.name == "home" %}
       {{ svlogo }}
     {% else %}
       <a href="/">{{ svlogo }}</a>
     {% endif %}
-    <nav class="pages">
+    <nav>
+      <a href="/" class="about-link {% if page.name == "home" %}current{% endif %}">About Us</a>
+      <a href="/team" class="team-link {% if page.name == "team" %}current{% endif %}">Team</a>
+      <a href="/companies" class="companies-link {% if page.name == "companies" %}current{% endif %}">Companies</a>
       {% comment %}
-        <a href="/about">About Us</a>
-        <a href="/team">Team</a>
         <a href="/mantra">Mantra</a>
         <a href="/ron-conway">Ron</a>
-        <a href="/companies">Companies</a>
       {% endcomment %}
     </nav>
   </header>
+  {% if page.name == "home" %}
+    <img src="/i/bridge.png" alt="Golden Gate Bridge" class="front-page-image">
+  {% endif %}
   <div class="content">
-    {{ content }}    
+    {{ content }}
   </div>
-  <script type="text/javascript" src="/js/retina.js"></script> 
+  <footer>
+    <address>
+      <span>588 Sutter Street #299</span>
+      San Francisco, CA 94102
+    </address>
+  </footer>
+  <script type="text/javascript" src="/js/retina.js"></script>
   {% comment %}
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script>
     <script>window.jQuery || document.write('<script src="/js/jquery-1.7.2.min.js">\x3C/script>')</script>

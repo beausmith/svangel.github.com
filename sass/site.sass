@@ -76,7 +76,7 @@ nav
 .content
   padding: 0 20px
   max-width: 768px + 20px * 2
-  margin: 20px auto 100px
+  margin: 20px auto 60px
   .page-companies &
     max-width: 950px
     padding: 0
@@ -110,7 +110,7 @@ nav
     margin: 20px 0
     a
       display: block
-    @media (min-width: 768px)
+    @media (min-width: 600px)
       float: left
       width: 50%
       &:nth-child(odd)
@@ -169,3 +169,16 @@ nav
 
 #warby_parker:before
   background-image: image-url("companies/warby-parker.png")
+
+footer
+  border-top: 1px solid $default-rule-color
+  padding: 20px 0 40px
+  address
+    text-align: center
+    font-size: 14px
+    span
+      &:after
+        content: " · "
+        padding: 0 5px
+    @media (min-width: 400px)
+      font-size: 16px

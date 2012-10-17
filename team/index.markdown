@@ -1,11 +1,11 @@
 ---
 layout: default
 title: The SV Angel Team
-description: SV Angel is an SF-based angel firm.  We help startups with business development, financing, M&A and other strategic advice.
+description: SV Angel is an San Francisco-based angel firm.  We help startups with business development, financing, M&A and other strategic advice.
 name: team
 ---
 
-# SV Angel is an SF-based angel firm.  We help startups with business development, financing, M&A and other strategic advice.
+# SV Angel is an San Francisco-based angel firm.  We help startups with business development, financing, M&A and other strategic advice.
 
 ## David Lee
 David Lee is a Founder and Managing Partner of SV Angel. Prior to SV Angel, David was at Baseline Ventures, a leading seed-stage venture firm. He was a founding member of Google's New Business Development team and led business development at StumbleUpon prior to its sale to eBay. He also was a corporate attorney at leading technology law firms. David has an M.S. in electrical engineering from Stanford, where he was a National Science Foundation graduate fellow; a J.D. from NYU; and a B.A. from Johns Hopkins. He currently serves on the Board of Directors of the Lucile Packard Foundation for Children's Health.

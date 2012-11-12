@@ -29,4 +29,3 @@ name: companies
   Online store for boutique-quality, classically crafted eye ear at a revolutionary price poinnt.
 
 * ## Many more
-  
